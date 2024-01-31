@@ -95,6 +95,10 @@ nav {
     margin-right: 332px;
 }
 
+nav .item {
+    padding: 24px 0;
+}
+
 .link {
     font-weight: 500;
     line-height: 1.5;

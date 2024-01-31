@@ -58,10 +58,11 @@ body {
 }
 
 /* --------------------------------------header */
-
+header {
+    border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
     display: flex;
-    border-bottom: 1px solid #e7e9fc;
     padding: 0 15px;
 }
 

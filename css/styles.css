@@ -208,6 +208,7 @@ nav {
 
 .title-two {
     color: #2e2f42;
+    opacity: 0;
     visibility: hidden;
 }
 

@@ -49,8 +49,6 @@ main {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 body {
@@ -63,8 +61,8 @@ body {
 
 .header-container {
     display: flex;
-    padding: 24px 0;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    padding: 0 15px;
 }
 
 nav {
@@ -188,9 +186,12 @@ nav {
 }
 /* --------------------------------------section2 */
 
+.two {
+    padding: 120px 0;
+}
+
 .section-two-ul {
     display: flex;
-    /* flex-wrap: wrap; */
     gap: 24px;
 }
 
@@ -223,6 +224,7 @@ nav {
 
 .tree {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .title-tree {
@@ -264,6 +266,10 @@ nav {
 }
 
 /* --------------------------------------section4 */
+
+.four {
+    padding: 120px 0;
+}
 
 .title-four {
     font-size: 36px;
@@ -320,10 +326,11 @@ nav {
 }
 
 .footer-container {
-   padding: 100px 0;
+   padding: 120px 0;
 }
 
 .footer-logo {
+    display: inline-block;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;

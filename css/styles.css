@@ -1,9 +1,9 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 h1,
@@ -43,6 +43,7 @@ img {
 main {
     flex-grow: 1;
 }
+
 /* ---------------------------------- */
 
 .container {
@@ -61,8 +62,12 @@ body {
 header {
     border-bottom: 1px solid #e7e9fc;
 }
+
 .header-container {
     display: flex;
+    padding: 0 15px;
+    max-width: 1158px;
+    margin: 0 auto;
     padding: 0 15px;
 }
 
@@ -140,6 +145,7 @@ nav {
 .adress-link:focus {
     color: #404bbf;
 }
+
 /* --------------------------------------section1 */
 
 .one {
@@ -185,6 +191,7 @@ nav {
 .btn:focus {
     background-color: #404BBF;
 }
+
 /* --------------------------------------section2 */
 
 .two {
@@ -204,10 +211,17 @@ nav {
 .title-two {
     color: #2e2f42;
 }
+
 .title-two .visually-hidden {
-    position: fixed;
-    transform: scale(0);
-  }
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
 
 .sub-title {
     color: #2e2f42;
@@ -224,6 +238,7 @@ nav {
     color: rgba(67, 68, 85, 1);
     letter-spacing: 0.02em;
 }
+
 /* --------------------------------------section3 */
 
 .tree {
@@ -261,10 +276,12 @@ nav {
 .item-info {
     padding: 32px 0;
 }
+
 .item-info .sub-title {
     text-align: center;
     margin-bottom: 8px;
 }
+
 .item-info p {
     text-align: center;
 }
@@ -323,13 +340,11 @@ nav {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 /* --------------------------------------footer */
 
 .footer {
     background-color: rgba(46, 47, 66, 1);
-}
-
-.footer-container {
     padding: 100px 0;
 }
 
